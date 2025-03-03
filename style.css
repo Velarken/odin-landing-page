@@ -1,0 +1,55 @@
+* {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+.header {
+    background-color: #1F2937;
+    color:white;
+}
+
+.mid-img {
+    min-height:100px;
+    min-width:100px;
+    border:5px darkblue;
+    background-color: lightgray;
+}
+
+.main-title {
+    background-color:#1F2937;
+}
+
+.lrg-img {
+    min-width:500px;
+    min-height:300px;
+    border:5px darkblue;
+    background-color: lightgray;
+}
+
+.mid-title {
+    background-color:white;
+}
+
+.quote {
+    background-color: lightgray;
+}
+
+.action-call {
+    background-color:#3882F6;
+}
+
+.footer {
+    background-color:#1F2937;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    
+    list-style: none;
+}
+
+button {
+    background-color:white;
+}
