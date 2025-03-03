@@ -3,24 +3,32 @@
 }
 
 .header {
+    display:flex;
     background-color: #1F2937;
     color:white;
+    justify-content: space-between;
 }
 
-.mid-img {
-    min-height:100px;
-    min-width:100px;
-    border:5px darkblue;
-    background-color: lightgray;
+.logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display:flex;
+    justify-content: space-evenly;
 }
 
 .main-title {
+    display:flex;
     background-color:#1F2937;
+    color:white;
 }
 
 .lrg-img {
-    min-width:500px;
-    min-height:300px;
+    min-width:300px;
+    min-height:200px;
     border:5px darkblue;
     background-color: lightgray;
 }
@@ -29,25 +37,68 @@
     background-color:white;
 }
 
-.quote {
+.cards {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+}
+
+.mid-img {
+    height:100px;
+    width:100px;
+    border:5px darkblue;
     background-color: lightgray;
+    justify-content: center;
+}
+
+.quote {
+    display:flex;
+    flex-direction:column;
+    min-height:350px;
+    background-color: lightgray;
+}
+
+.quote-text {
+    font-size:24px;
+    font-weight:200;
+    margin-top:70px;
+    padding:35px;
 }
 
 .action-call {
     background-color:#3882F6;
+    color:white;
+    margin:45px;
 }
 
 .footer {
+    display:flex;
+    justify-content: flex-end;
+    text-align: center;
     background-color:#1F2937;
+    color:white;
+}
+
+h3 {
+    text-align:end;
+    margin-right:30px;
 }
 
 a {
     text-decoration: none;
+    color:white;
 }
 
 ul {
-    
+    display:flex;
     list-style: none;
+    color:white;
 }
 
 button {
